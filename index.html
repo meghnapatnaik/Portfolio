@@ -1,0 +1,130 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Meghna's Portfolio</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
+</head>
+<body>
+    <!-- Navigation -->
+    <nav>
+        <a href="#home" class="brand"></a>
+        <div class="hamburger">
+            <div></div>
+            <div></div>
+            <div></div>
+        </div>
+        <ul class="hidden">
+            <li><a href="#home">Home</a></li>
+            <li><a href="#about">About</a></li>
+            <li><a href="#skills">Skills</a></li>
+            <li><a href="#projects">Projects</a></li>
+            <li><a href="#experience">Experience</a></li>
+            <li><a href="#contact">Contact</a></li>
+            
+        </ul>
+    </nav>
+
+    
+
+    <!-- Header Section -->
+    <header>
+        <div class="header-content">
+            <h1 class="header-title">
+                <span id="typed-text"></span>
+            </h1>
+            <p class="header-subtitle">Software engineer, code magician, and part-time meme curator.</p>
+            <a href="#contact" class="btn">Let's Chat!</a>
+        </div>
+    </header>
+
+    <!-- About Section -->
+    <section id="about" class="section about">
+        <h2>About Me</h2>
+        <p>I'm Meghna, a software engineer with a passion for front-end development, machine learning, and sprinkling in a bit of fun wherever I can. When I'm not coding, you'll find me hunting down the latest tech memes or dancing like no one's watching!</p>
+        <div class="about-icons">
+            <i class="fas fa-laptop-code"></i>
+            <i class="fas fa-music"></i>
+            <i class="fas fa-coffee"></i>
+            <i class="fas fa-gamepad"></i>
+        </div>
+    </section>
+
+    <!-- Skills Section -->
+    <section id="skills" class="section skills">
+        <h2>Skills</h2>
+        <div class="skill-list">
+            <div class="skill">JavaScript</div>
+            <div class="skill">React</div>
+            <div class="skill">Python</div>
+            <div class="skill">Angular</div>
+            <div class="skill">Node.js</div>
+            <div class="skill">SQL</div>
+            <div class="skill">MongoDB</div>
+        </div>
+    </section>
+
+    <!-- Projects Section -->
+    <section id="projects" class="section projects">
+        <h2>Projects</h2>
+        <div class="project-list">
+            <div class="project">
+                <h3>AI-Powered Resume Analyzer</h3>
+                <p>A web app that analyzes resumes using NLP and gives job description-based feedback.</p>
+                <div class="tech-stack">Technologies: Python, NLP, React</div>
+            </div>
+            <div class="project">
+                <h3>Full-Stack Healthcare System</h3>
+                <p>Developed a web app for doctor appointments and blood donor locations.</p>
+                <div class="tech-stack">Technologies: Angular, Node.js, MongoDB</div>
+            </div>
+        </div>
+    </section>
+
+    
+
+    <!-- Experience Section -->
+    <section id="experience" class="section experience">
+        <h2>Experience</h2>
+        <div class="job-list">
+            <div class="job">
+                <h3>Junior Software Engineer - Epam Systems</h3>
+                <p>Led development for a web application in a Google project, optimizing operational efficiency.</p>
+                <div class="tech-stack">Technologies: Angular, Node.js, Express.js</div>
+            </div>
+            <div class="job">
+                <h3>Instructional Assistant - UNC Charlotte</h3>
+                <p>Assisting with teaching and grading for AI and Computer Vision courses.</p>
+                <div class="tech-stack">Skills: AI, Machine Learning, Python</div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section id="contact" class="section contact">
+        <h2>Contact Me</h2>
+        <form>
+            <input type="text" placeholder="Your Name" required>
+            <input type="email" placeholder="Your Email" required>
+            <textarea placeholder="Your Message" required></textarea>
+            <button type="submit">Send Message</button>
+        </form>
+    </section>
+
+
+
+    <!-- Footer -->
+    <footer>
+        <p>&copy; 2024 Meghna Neelayavalasa | Built with love, code, and a little humor.</p>
+    </footer>
+
+    <!-- GSAP and ScrollTrigger -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.10.4/gsap.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.10.4/ScrollTrigger.min.js"></script>
+    
+    <!-- External JavaScript -->
+    <script src="app.js"></script>
+</body>
+</html>
